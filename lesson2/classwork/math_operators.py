@@ -8,5 +8,7 @@ print(5 / 2) # Division: divides two numbers and gives a float result
 
 a = 5
 b = 8
-print("a + b +=", a + b)
-print("a + b, a * b")
+print("a + b + =", a + b)
+print(a + b, a * b)
+
+
