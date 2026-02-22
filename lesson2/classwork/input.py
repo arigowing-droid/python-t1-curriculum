@@ -1,0 +1,13 @@
+# input ALWAYS returns a string
+user_input = input("give me an integer")
+print(user_input)
+
+print(user_input)
+
+# Error: cannot add integer to a string
+# print(user_input + 1)
+
+number = int(user_input) # casting a number
+
+user_number = int(input("Give me an integer:"))
+print(user_number + 1)
