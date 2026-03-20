@@ -1,5 +1,3 @@
-import random
-
 # Problem 1
 # Create a list of 4 car brands.
 # Print the first and last.
