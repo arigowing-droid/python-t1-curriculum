@@ -1,8 +1,8 @@
 
 counter = 0 # Keeps track of how many numbers so far in my list are greater than 5
 
-for i in range(len(numbers)): # Looping through the list of numbers using an index 5
-    item = numbers[i]   # Check if the current item is greater than 5
+for i in range(len(counter)): # Looping through the list of numbers using an index 5
+    item = counter[i]   # Check if the current item is greater than 5
     if item > 5: # Check if the current item is greater than 5
         counter = counter + 1   # If it is greater than 5, add 1 to the counter
 print("There are", counter, "numbers greater than 5 in the list.")
